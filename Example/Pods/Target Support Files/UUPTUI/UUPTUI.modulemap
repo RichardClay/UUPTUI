@@ -1,0 +1,6 @@
+framework module UUPTUI {
+  umbrella header "UUPTUI-umbrella.h"
+
+  export *
+  module * { export * }
+}

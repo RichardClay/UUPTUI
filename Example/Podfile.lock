@@ -1,0 +1,23 @@
+PODS:
+  - Masonry (1.1.0)
+  - UUPTUI (0.1.0):
+    - Masonry
+
+DEPENDENCIES:
+  - UUPTUI (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - Masonry
+
+EXTERNAL SOURCES:
+  UUPTUI:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  UUPTUI: 3673c58a64a00d06a5b0c9ba749a8aa151d39541
+
+PODFILE CHECKSUM: c76813f69acab7b8d33a98b2dfd8c14fbf8219da
+
+COCOAPODS: 1.8.4

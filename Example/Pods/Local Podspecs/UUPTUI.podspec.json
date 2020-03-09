@@ -1,0 +1,27 @@
+{
+  "name": "UUPTUI",
+  "version": "0.1.0",
+  "summary": "UU跑腿UI公共组件库",
+  "description": "UI组件",
+  "homepage": "http://uugit.uupt.com/zhangwenbin/UUPTUI.git",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "lz": "750460196@qq.com"
+  },
+  "source": {
+    "git": "http://uugit.uupt.com/zhangwenbin/UUPTUI.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "UUPTUI/Classes/**/*",
+  "dependencies": {
+    "Masonry": [
+
+    ]
+  }
+}
