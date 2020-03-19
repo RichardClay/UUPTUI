@@ -33,6 +33,17 @@
         });
     });
 }
+- (NSString *)UUPT_hexString {
+    NSInteger alpha = self.UUPT_alpha * 255;
+    NSInteger red = self.UUPT_red * 255;
+    NSInteger green = self.UUPT_green * 255;
+    NSInteger blue = self.UUPT_blue * 255;
+    return [[NSString stringWithFormat:@"#%@%@%@%@",
+            [self alignColorHexStringLength:[NSString UUPT_hexStringWithInteger:alpha]],
+            [self alignColorHexStringLength:[NSString UUPT_hexStringWithInteger:red]],
+            [self alignColorHexStringLength:[NSString UUPT_hexStringWithInteger:green]],
+            [self alignColorHexStringLength:[NSString UUPT_hexStringWithInteger:blue]]] lowercaseString];
+}
 
 + (UIColor *)UUPT_colorWithHexString:(NSString *)hexString {
     if (hexString.length <= 0) return nil;
