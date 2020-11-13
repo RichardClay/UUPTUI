@@ -98,6 +98,8 @@
 		8D65CE579E516BDD5FB36CAA21D693F6 /* MASCompositeConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E5709CED54C3B8DC4B50B19520F6771 /* MASCompositeConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9374BC912C13D4406664A722CD68FABB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28147EF640D73DD5BE8B797CFD199606 /* Foundation.framework */; };
 		941955A19C40899D275604E6E9C21A6D /* MASConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 130F3B92BAB28630295F57E8AAC12EA1 /* MASConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		96807774255E3B9700A00864 /* UUCopyLable.h in Headers */ = {isa = PBXBuildFile; fileRef = 96807772255E3B9700A00864 /* UUCopyLable.h */; };
+		96807775255E3B9700A00864 /* UUCopyLable.m in Sources */ = {isa = PBXBuildFile; fileRef = 96807773255E3B9700A00864 /* UUCopyLable.m */; };
 		9D546E1168C04B0B2EAE005D9275D18B /* MASConstraint+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = D100F47F5FECCA555C616F7D93D7CB4B /* MASConstraint+Private.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A35FBEEC7D088AEC05297E8292A32C77 /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = FE7A0F064F168E6660B03C9639A19329 /* View+MASAdditions.m */; };
 		B7D645EC004610E8A581E532D28771EC /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = A17EAC4713F6B85A6124DB11F111B072 /* MASViewConstraint.m */; };
@@ -238,6 +240,8 @@
 		87D3A3792E0BAD69D29745223ECA7B54 /* UUPTUI-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UUPTUI-dummy.m"; sourceTree = "<group>"; };
 		896A4BCB5B3DBC78E1CF6EBF5AC2862F /* View+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "View+MASAdditions.h"; path = "Masonry/View+MASAdditions.h"; sourceTree = "<group>"; };
 		8D4CA7B92265A15B80B1666634FF46C0 /* Masonry-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Masonry-umbrella.h"; sourceTree = "<group>"; };
+		96807772255E3B9700A00864 /* UUCopyLable.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UUCopyLable.h; sourceTree = "<group>"; };
+		96807773255E3B9700A00864 /* UUCopyLable.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UUCopyLable.m; sourceTree = "<group>"; };
 		9C783239D12541FA278CBEBA15780CE4 /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "View+MASShorthandAdditions.h"; path = "Masonry/View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
 		9CD1AD2192C246BE568B6CFBA7EB9C68 /* NSLayoutConstraint+MASDebugAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSLayoutConstraint+MASDebugAdditions.h"; path = "Masonry/NSLayoutConstraint+MASDebugAdditions.h"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
@@ -423,6 +427,8 @@
 			children = (
 				2839EF76242301E100D4553B /* QMUIPopupContainerView.h */,
 				2839EF75242301E100D4553B /* QMUIPopupContainerView.m */,
+				96807772255E3B9700A00864 /* UUCopyLable.h */,
+				96807773255E3B9700A00864 /* UUCopyLable.m */,
 			);
 			name = Component;
 			path = UUPTUI/Classes/Component;
@@ -646,6 +652,7 @@
 				2839EF682423012400D4553B /* NSNumber+QMUI.h in Headers */,
 				2839EF642423012400D4553B /* CALayer+QMUI.h in Headers */,
 				2839EF582423012400D4553B /* UUPTKit.h in Headers */,
+				96807774255E3B9700A00864 /* UUCopyLable.h in Headers */,
 				2839EF4D2423012400D4553B /* UUPTConfiguration.h in Headers */,
 				2839EF6F2423012400D4553B /* UITraitCollection+QMUI.h in Headers */,
 				3DA5F1D8E51CDD102A871C2F37770C7B /* MASViewAttribute.h in Headers */,
@@ -859,6 +866,7 @@
 				2839EF672423012400D4553B /* UIView+QMUI.m in Sources */,
 				2839EF3D2423012400D4553B /* UIImage+QMUITheme.m in Sources */,
 				2839EF552423012400D4553B /* NSNumber+QMUI.m in Sources */,
+				96807775255E3B9700A00864 /* UUCopyLable.m in Sources */,
 				2839EF5A2423012400D4553B /* UITraitCollection+QMUI.m in Sources */,
 				C0861ADB4C5FA30F4F9E051F7638A264 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
 				2839EF722423012400D4553B /* UIBezierPath+UUPTUI.m in Sources */,
