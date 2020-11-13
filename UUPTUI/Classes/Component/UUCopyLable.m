@@ -17,11 +17,23 @@
 
 - (instancetype)initWithFrame:(CGRect)frame {
     if (self = [super initWithFrame:frame]) {
-        self.numberOfLines = 0;
-        [self attachLongPress];
-        self.pasteboard = [UIPasteboard generalPasteboard];
+        [self setUp];
     }
     return self;
+}
+
+- (instancetype)initWithCoder:(NSCoder *)coder{
+    self = [super initWithCoder:coder];
+    if (self) {
+        [self setUp];
+    }
+    return self;
+}
+
+- (void)setUp{
+    self.numberOfLines = 0;
+    [self attachLongPress];
+    self.pasteboard = [UIPasteboard generalPasteboard];
 }
 
 - (void)attachLongPress{

@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'UUPTUI'
-  s.version          = '1.1.1'
+  s.version          = '1.1.2'
   s.summary          = 'UU跑腿UI公共组件库'
 
 # This description is used to generate tags and improve search results.
